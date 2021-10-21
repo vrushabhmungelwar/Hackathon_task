@@ -10,7 +10,7 @@ async function getAllCats() {
 
   cats.forEach((cat) => {
     catsContainer.innerHTML += `
-    <h2>${cat.tags}  <a href = "https://cataas.com/cat/${cat.id}"><input type = "button" value = "Get_img"></a></h2>
+    <img src="https://cataas.com/cat/${cat.id}" class = "catimg">
     `;
   });
 }
@@ -25,8 +25,7 @@ async function search(searchText) {
 
   cats.forEach((cat) => {
     catsContainer.innerHTML += `
-    <h2>${cat.tags}  <a href = "https://cataas.com/cat/${cat.id}"><input type = "button" value = "Get_img"></a></h2>
+    <img src="https://cataas.com/cat/${cat.id}" class = "catimg">
     `;
   });
 }
-
