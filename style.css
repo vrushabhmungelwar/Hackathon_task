@@ -1,16 +1,23 @@
+body {
+  background-color: rgb(102, 86, 64);
+}
 .catimg {
   height: 8rem;
   width: 8rem;
   border-radius: 3rem;
+  margin-top: 3rem;
 }
 
-img:hover {
-  height: 20rem;
-  width: 20rem;
-  border-radius: 0rem;
-  transition: 1s;
+.catSearch {
+  height: 1.7rem;
+  width: 25rem;
+  margin-left: 31rem;
+  margin-top: 3rem;
+  border-radius: 00.5rem;
 }
-
-img:not(:hover) {
-  transition: 1s;
+.SearchBtn {
+  height: 2.08rem;
+  width: 5rem;
+  background-color: rgb(4, 145, 145);
+  border-radius: 0.5rem;
 }
